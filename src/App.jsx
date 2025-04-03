@@ -12,6 +12,7 @@ import ResturentErp from './ResturentErp';
 import SchoolErpDev from './SchoolErpDev';
 import WebDevelopmentPage from './WebDevelopmentPage';
 import MissionVisionPage from './MissionVisionPage';
+import AwardsPage from './AwardsPage';
 
 
 
@@ -32,7 +33,8 @@ function App() {
         <Route path="/expertise/web" element={<WebDevelopmentPage />} />
         
       </Routes> */}
-      <MissionVisionPage/>
+      {/* <MissionVisionPage/> */}
+      <AwardsPage/>
       <Footer/>
     </Router>
   );
